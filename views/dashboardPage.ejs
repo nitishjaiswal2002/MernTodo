@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do app</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <center>Dashboard Page</center>
+    <div class="container">
+      <h1 class="display-4 text-center py-1 px-3">To-Do App</h1>
+
+      <div class="jumbotran p-3 shadow-sm">
+      
+          <div class="d-flex align-items-center">
+            <input
+              id="create_field"
+              name="todo"
+              autofocus
+              autocomplete="off"
+              class="form-container"
+            />
+            <button class="add_item btn btn-primary">Add New Item</button>
+          </div>
+      </div>
+
+      <ul id="Item_list" class="list-group pb-5"></ul>
+
+      <button class="show_more">Show More</button></br></br>
+
+      <form action="/logout" method="post">
+        <button>Logout</button>
+      </form>
+
+      <form action="/logout-out-from-all" method="post">
+        <button>Logout All Devices</button>
+      </form>
+    </div>
+
+    
+
+    <script src="browser.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+SRS, Schema,API , Client
+Todo App, Project Setup,Setup Express Server,Mongodb Connection
+Setup EJS framework, Register Api, Login Api, Session Based Authentication
+Middleware to protect Api, Dashboard Api, Logout , Logout from all Devices
+Todo,s Api create Api , Read Api, edit Api, Delete Api
+Dashboard Client (axios) axios Create Api, axios read Api, axios edit api, axios delete Api
+Pagination of api,s 
+Rate Limiting
+Emai Based Authentication (JWT)
