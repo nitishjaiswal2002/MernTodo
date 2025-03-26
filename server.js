@@ -166,7 +166,7 @@ app.post("/login", async (req, res) => {
 
 //dashboard
 app.get("/dashboard", isAuth, (req, res) => {
-  return res.render("dashboardpage");
+  return res.render("dashboardPage");
 });
 
 //logout
